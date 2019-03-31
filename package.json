@@ -1,0 +1,11 @@
+{
+  "name": "spawn-event-emitter-issue",
+  "version": "1.0.0",
+  "description": "A demo of my problem im facing with eventemitters and running python code in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JohannesMerkt",
+  "license": "ISC"
+}
