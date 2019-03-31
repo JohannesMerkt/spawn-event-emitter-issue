@@ -9,7 +9,7 @@ module.exports = class BalanceBoard extends EventEmitter {
 
   //Start python code and listen to the output of the code
   start() {
-    this.pythonCode = spawn("python", ["pythonCode.py"]);
+    this.pythonCode = spawn("python", ["pythonCode.py"], { cwd: __dirname });
     this.pythonCode.stdout.on("data", data => {
       //Process data would be here ...
       //Emit data
